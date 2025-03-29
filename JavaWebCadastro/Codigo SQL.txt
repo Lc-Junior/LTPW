@@ -1,0 +1,10 @@
+CREATE SCHEMA IF NOT EXISTS `javawebcadastro`;
+USE `javawebcadastro`;
+
+CREATE TABLE IF NOT EXISTS `usuarios`(
+codigo INT AUTO_INCREMENT PRIMARY KEY,
+nome CHAR(80),
+email CHAR(80)
+);
+
+SELECT * FROM `usuarios`;
